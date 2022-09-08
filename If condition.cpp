@@ -1,6 +1,4 @@
 #include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -9,6 +7,7 @@ using namespace std;
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     int N;
+    cout<<"Enter a number 0-9";
     cin >> N;
     if (N == 1) {
         cout << "one" << endl;
